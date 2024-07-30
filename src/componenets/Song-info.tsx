@@ -12,9 +12,7 @@ export function SongInfo(): ReactElement {
             <p>The Beatles</p>
         </div>
 
-        <span className="material-symbols-outlined">
-        favorite
-        </span>
+        <span className="material-symbols-outlined">favorite</span>
     </div>
     );
   }

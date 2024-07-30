@@ -1,12 +1,23 @@
 .sections-container {
-    display: flex;
-    /* Adjust spacing between sections with margin */
-    background-color: rgb(148, 148, 203);
+  display: flex;
+  flex-wrap: wrap; 
+  background-color: rgb(148, 148, 203);
+  justify-content: space-between; 
+}
+
+.left-section,
+.right-section {
+  flex: 1; 
+  min-width: 300px; 
+  padding: 50px; 
+}
+
+@media (max-width: 830px) {
+  .sections-container {
+      flex-direction: column;
   }
-  
   .left-section,
   .right-section {
-    padding: 50px; /* Optional: Add padding for better spacing */
+      padding: 20px;
   }
-  
-  
+}

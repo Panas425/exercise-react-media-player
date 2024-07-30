@@ -1,28 +1,55 @@
 .playlist {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Adjust the proportions as needed */
-    gap: 10px; /* Space between columns */
-    align-items: center; /* Align items vertically in the center */
-    padding: 10px; /* Optional: Add padding */
-    width: 600px;
-    border: 1px solid #ddd; /* Optional: Border for visibility */
-    border-radius: 8px; /* Optional: Rounded corners */
-    background-color: #f9f9f9; /* Optional: Background color */
-    margin-bottom: 20px;
-  }
-  
-  .playlist .play-button {
-    grid-column: 3; /* Third column */
-    display: flex;
-    justify-content: right; /* Center the play button */
-  }
-  .playlist-image {
-    width: 150px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
-    object-fit: cover; /* Ensure the image covers the box without distortion */
-    border-radius: 5px; /* Optional: Rounded corners for the image */
-    margin-right: 10px; /* Space between the image and text */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns by default */
+  gap: 10px; /* Space between columns */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Padding inside the playlist container */
+  border: 1px solid #ddd; /* Optional: Border for visibility */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Background color */
+  margin-bottom: 20px; /* Space below each playlist item */
+  width: 100%; /* Make width responsive */
+  box-sizing: border-box; /* Include padding and border in element width */
 }
-.playlist .key{
-    font-weight: bolder;
+
+.playlist .play-button {
+  display: flex;
+  justify-content: flex-end; /* Align the play button to the right */
+}
+
+.playlist-image {
+  width: 100%; /* Responsive width */
+  max-width: 150px; /* Limit the max width */
+  height: 140px; /* Adjust height automatically */
+  object-fit: cover; /* Cover the image container without distortion */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.playlist .key {
+  font-weight: bolder;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .playlist {
+      grid-template-columns: 1fr 1fr 1fr; /* Two columns: image and text/button */
+      gap: 10px; /* Adjust gap as needed */
+  }
+}
+
+@media (max-width: 480px) {
+  .playlist {
+      grid-template-columns: 1fr; /* Single column layout for small screens */
+      text-align: center; /* Center align text */
+      padding: 5px; /* Reduce padding for smaller screens */
+  }
+
+  .playlist .play-button {
+      justify-content: center; /* Center the play button */
+  }
+
+  .playlist-image {
+      width: 100px; /* Smaller width for images on small screens */
+      margin: 0 auto 10px; /* Center image and add space below */
+  }
 }

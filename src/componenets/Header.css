@@ -1,10 +1,21 @@
-.header{
+.header {
     display: flex;
-    flex-direction: row; 
-    gap: 520px; 
-    font-size: 20px;
-    flex-direction: center;
+    flex-direction: row;
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Center items vertically */
     padding: 19px;
     color: white;
     background-color: rgb(76, 76, 124);
+    font-size: 20px;
+    gap: 20px; /* Space between elements */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line if needed */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items horizontally */
+        gap: 10px; /* Reduce gap between items */
+    }
 }

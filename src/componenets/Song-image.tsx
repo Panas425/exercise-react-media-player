@@ -5,7 +5,7 @@ export function Songimage(): ReactElement {
     return (
     <div>
         <div>
-            <img src={abbey_road} alt="Sample Image" style={{ width: '100%', height: 'auto' }} />
+            <img src={abbey_road} alt="Sample Image" style={{ width: '480px', height: 'auto' }} />
         </div>
     </div>
     );

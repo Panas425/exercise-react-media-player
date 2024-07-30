@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
-import { Playlist } from "./Playlist"; // Component imported from another file
-import { PlayLists } from "../data";    // Assuming PlayLists is an array of data objects
+import { Playlist } from "./Playlist"; 
+import { PlayLists } from "../data";    
 import "./LeftSection.css"
 export function LeftSection(): ReactElement {
   return (
