@@ -8,7 +8,7 @@ export function SongInfo(): ReactElement {
     add_circle
     </span>
         <div className="song-info">
-            <p>Abbey Road</p>
+            <p className="name">Abbey Road</p>
             <p>The Beatles</p>
         </div>
 

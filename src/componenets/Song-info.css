@@ -8,4 +8,7 @@
     text-align: center;
     margin-top: 30px;
   }
+  .song-info .name{
+    font-weight: bold;
+  }
   

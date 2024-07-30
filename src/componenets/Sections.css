@@ -1,7 +1,7 @@
 .sections-container {
     display: flex;
     /* Adjust spacing between sections with margin */
-    background-color: rgb(178, 178, 221);
+    background-color: rgb(148, 148, 203);
   }
   
   .left-section,
