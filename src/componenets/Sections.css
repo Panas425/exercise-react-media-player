@@ -1,0 +1,12 @@
+.sections-container {
+    display: flex;
+    /* Adjust spacing between sections with margin */
+    background-color: rgb(178, 178, 221);
+  }
+  
+  .left-section,
+  .right-section {
+    padding: 50px; /* Optional: Add padding for better spacing */
+  }
+  
+  

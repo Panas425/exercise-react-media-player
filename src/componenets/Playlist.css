@@ -1,0 +1,28 @@
+.playlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust the proportions as needed */
+    gap: 10px; /* Space between columns */
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; /* Optional: Add padding */
+    width: 600px;
+    border: 1px solid #ddd; /* Optional: Border for visibility */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #f9f9f9; /* Optional: Background color */
+    margin-bottom: 20px;
+  }
+  
+  .playlist .play-button {
+    grid-column: 3; /* Third column */
+    display: flex;
+    justify-content: right; /* Center the play button */
+  }
+  .playlist-image {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure the image covers the box without distortion */
+    border-radius: 5px; /* Optional: Rounded corners for the image */
+    margin-right: 10px; /* Space between the image and text */
+}
+.playlist .key{
+    font-weight: bolder;
+}
