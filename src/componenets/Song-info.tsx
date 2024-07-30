@@ -16,15 +16,3 @@ export function SongInfo(): ReactElement {
     </div>
     );
   }
-
-
-
-
-
-
-
-
-
-
-
-

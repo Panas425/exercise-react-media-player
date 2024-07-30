@@ -1,19 +1,19 @@
 .container-buttons {
     display: flex;
-    justify-content: space-between; /* Space out the items */
-    align-items: center; /* Align items vertically in the center */
-    padding: 10px; /* Optional: Add padding */
-    width: 460px; /* Set the width of the container */
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    width: 460px; 
     text-align: center;
     margin-top: 50px;
   }
   
   .btns {
     display: flex;
-    gap: 10px; /* Space between the buttons */
+    gap: 10px; 
   }
   
   .material-symbols-outlined {
-    font-size: 24px; /* Adjust icon size */
-    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 24px; 
+    cursor: pointer;
   }
