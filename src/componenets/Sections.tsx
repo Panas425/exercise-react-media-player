@@ -12,7 +12,6 @@ export function Sections(): ReactElement {
         <div className="right-section">
         <RightSection></RightSection>
         </div>
-        
     </div>
     );
   }

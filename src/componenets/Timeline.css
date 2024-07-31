@@ -1,7 +1,7 @@
 .container-timeline {
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    gap: 10px; /* Space between items */
+    align-items: center; 
+    gap: 10px; 
     width: 480px;
     text-align: center;
     margin-top: 100px;
@@ -9,10 +9,10 @@
   
   .timeline {
     background-color: black;
-    height: 10px; /* Adjust height as needed */
-    border-radius: 5px; /* Rounded corners */
-    flex: 1; /* Allow the timeline to take up the remaining space */
-    position: relative; /* Required for positioning pseudo-elements */
+    height: 10px; 
+    border-radius: 5px; 
+    flex: 1; 
+    position: relative; 
   }
   
   .timeline::before {
@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 20%; /* Adjust the width to represent progress */
-    background-color: white; /* Color for the highlighted portion */
-    border-radius: 5px; /* Rounded corners */
+    width: 20%;
+    background-color: white; 
+    border-radius: 5px;
   }

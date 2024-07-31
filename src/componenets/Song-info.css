@@ -1,9 +1,9 @@
 .container-info {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* Adjust the proportions as needed */
-    gap: 70px; /* Space between columns */
-    align-items: center; /* Align items vertically in the center */
-    padding: 5px; /* Optional: Add padding */
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 70px; 
+    align-items: center; 
+    padding: 5px; 
     width: 450px;
     text-align: center;
     margin-top: 30px;

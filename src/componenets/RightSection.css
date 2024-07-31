@@ -1,12 +1,12 @@
-/* Basic styling for the RightSection container */
+
 .right-section {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align elements */
-    padding: 20px; /* Padding around the container */
-    box-sizing: border-box; /* Include padding in width/height calculations */
-    border-radius: 8px; /* Rounded corners */
-    margin: 0 auto; /* Center the section horizontally */
-    max-width: 600px; /* Maximum width for larger screens */
-    width: 100%; /* Full width for responsiveness */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 8px; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    width: 100%; 
 }
